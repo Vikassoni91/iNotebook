@@ -2,6 +2,17 @@
 
 In today's digital world, staying organized is essential. To address this need, I created iNotebook, a web application that allows users to store, modify, and delete their notes securely. With user authentication and robust security measures, iNotebook ensures that users' data remains confidential and protected from unauthorized access.
 
+Features:
+
+User Authentication: iNotebook implements a user authentication system to ensure that only registered users can access their notes. This feature prevents unauthorized users from viewing or modifying sensitive information.
+
+Secure Note Storage: All user notes are securely stored in a MongoDB Atlas database. By leveraging the power of cloud storage, users can access their notes from anywhere, anytime, without the risk of data loss.
+
+Password Encryption: To protect user passwords, iNotebook utilizes encryption techniques. Passwords are encrypted before being stored in the database, ensuring that even if the data is compromised, hackers cannot access the original passwords.  iNotebook incorporates salted passwords, adding an extra layer of security. By appending a unique salt value to each user's password before encryption, the system prevents hackers from using precomputed rainbow tables or dictionary attacks to crack passwords.
+
+Data Isolation: Each user can only access and modify their own notes. Through proper authorization and data isolation techniques, iNotebook ensures that users' data remains private and isolated from other users.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
