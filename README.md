@@ -2,6 +2,9 @@
 
 In today's digital world, staying organized is essential. To address this need, I created iNotebook, a web application that allows users to store, modify, and delete their notes securely. With user authentication and robust security measures, iNotebook ensures that users' data remains confidential and protected from unauthorized access.
 
+# checkout the deployed inotebook app here
+ https://i-notebook-bice.vercel.app/ 
+
 ### Features:
 
 User Authentication: iNotebook implements a user authentication system to ensure that only registered users can access their notes. This feature prevents unauthorized users from viewing or modifying sensitive information.
